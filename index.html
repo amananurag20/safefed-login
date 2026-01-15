@@ -35,15 +35,15 @@
                 <!-- White Form Section -->
                 <div class="login-form-container">
                     <form id="loginForm" class="login-form" novalidate autocomplete="off">
-                        <!-- User ID Field -->
+                        <!-- User ID Field - Floating Label Inside Input -->
                         <div class="form-field username-container">
-                            <div class="input-wrapper" id="userIdWrapper">
-                                <label class="field-label" for="userId">
-                                    <span class="label-text">User ID</span>
-                                    <input type="text" id="userId" name="userId" class="form-input" autocomplete="off"
-                                        autocapitalize="none" autocorrect="off" spellcheck="false">
+                            <div class="fluid-input-wrapper" id="userIdWrapper">
+                                <label class="fluid-form-label" for="userId">
+                                    <span class="fluid-label-text">User ID</span>
+                                    <input type="text" id="userId" name="userId" class="fluid-text-input"
+                                        autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false">
                                 </label>
-                                <div class="remember-me">
+                                <div class="save-toggle-wrapper">
                                     <span class="save-text">Save</span>
                                     <label class="toggle-switch">
                                         <input type="checkbox" id="saveUserId">
@@ -56,12 +56,12 @@
                             <span class="error-message" id="userIdError"></span>
                         </div>
 
-                        <!-- Password Field -->
+                        <!-- Password Field - Floating Label Inside Input -->
                         <div class="form-field password-container">
-                            <div class="input-wrapper" id="passwordWrapper">
-                                <label class="field-label" for="password">
-                                    <span class="label-text">Password</span>
-                                    <input type="password" id="password" name="password" class="form-input"
+                            <div class="fluid-input-wrapper" id="passwordWrapper">
+                                <label class="fluid-form-label" for="password">
+                                    <span class="fluid-label-text">Password</span>
+                                    <input type="password" id="password" name="password" class="fluid-text-input"
                                         autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false">
                                 </label>
                                 <button type="button" class="password-toggle" id="togglePassword"
