@@ -70,7 +70,7 @@ body {
 /* Left Side - Image (410 x 453.4 from original) */
 .login-image {
     flex: 0 0 410px;
-    height: 453px;
+    min-height: 453px;
 }
 
 .login-image img {
@@ -80,10 +80,10 @@ body {
     display: block;
 }
 
-/* Right Side - Login Panel (410px width, 453px height from original) */
+/* Right Side - Login Panel (410px width, min-height 453px from original) */
 .login-panel {
     flex: 0 0 410px;
-    height: 453px;
+    min-height: 453px;
     display: flex;
     flex-direction: column;
     background: var(--white);
