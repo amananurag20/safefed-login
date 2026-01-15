@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SAFE Federal Credit Union - Secure Online Banking Login">
+    <title>SAFE Federal Credit Union - Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <main class="main-container">
+        <!-- Login Card -->
+        <div class="login-card">
+            <!-- Left Side - Image -->
+            <div class="login-image">
+                <img src="https://resource.digitalinsight.com/mobile/84/01684/login/1589934402091/iPhone.png"
+                    alt="Scenic sunset over field">
+            </div>
+
+            <!-- Right Side - Login Panel -->
+            <div class="login-panel">
+                <!-- Navy Blue Header with Logo -->
+                <div class="login-header">
+                    <div class="logo-container">
+                        <img src="https://prd.dbk.ncr.com/images/01684/media/safe_logo_(90_%C3%97_85_px)-g86jz.png"
+                            alt="SAFE Federal Credit Union" class="safe-logo">
+                    </div>
+                </div>
+
+                <!-- White Form Section -->
+                <div class="login-form-container">
+                    <form id="loginForm" class="login-form" novalidate autocomplete="off">
+                        <!-- User ID Field -->
+                        <div class="form-field username-container">
+                            <div class="input-wrapper" id="userIdWrapper">
+                                <label class="field-label" for="userId">
+                                    <span class="label-text">User ID</span>
+                                    <input type="text" id="userId" name="userId" class="form-input" autocomplete="off"
+                                        autocapitalize="none" autocorrect="off" spellcheck="false">
+                                </label>
+                                <div class="remember-me">
+                                    <span class="save-text">Save</span>
+                                    <label class="toggle-switch">
+                                        <input type="checkbox" id="saveUserId">
+                                        <div class="toggle-track">
+                                            <div class="toggle-thumb"></div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <span class="error-message" id="userIdError"></span>
+                        </div>
+
+                        <!-- Password Field -->
+                        <div class="form-field password-container">
+                            <div class="input-wrapper" id="passwordWrapper">
+                                <label class="field-label" for="password">
+                                    <span class="label-text">Password</span>
+                                    <input type="password" id="password" name="password" class="form-input"
+                                        autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false">
+                                </label>
+                                <button type="button" class="password-toggle" id="togglePassword"
+                                    aria-label="Toggle password visibility">
+                                    <span class="eye-icon"></span>
+                                </button>
+                            </div>
+                            <span class="error-message" id="passwordError"></span>
+                        </div>
+
+                        <!-- Login Button -->
+                        <div class="form-field">
+                            <button type="submit" class="login-button" id="loginButton" disabled>
+                                <span class="button-text">Login</span>
+                                <span class="button-loader hidden"></span>
+                            </button>
+                        </div>
+
+                        <!-- Success/Error Messages -->
+                        <div id="formMessage" class="form-message hidden"></div>
+
+                        <!-- Links -->
+                        <div class="form-field">
+                            <nav class="login-links">
+                                <ul>
+                                    <li><button type="button" class="link-button">Forgot Login?</button></li>
+                                    <li><button type="button" class="link-button">Test your browser</button></li>
+                                    <li><button type="button" class="link-button">Trouble testing your browser</button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="https://online.safefed.org/mstinc/web/images/custom/di01684_ehl_ncua_copyright.png"
+                alt="Equal Housing Lender - NCUA Insured" class="footer-image">
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
