@@ -1,0 +1,25 @@
+/* ========================================
+   Header - Logo & Branding
+   ======================================== */
+
+/* Navy Blue Header - Logo only (410 x 130 from original) */
+.login-header {
+    background-color: var(--primary-navy);
+    padding: 60px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Logo size: 55.64 x 55 from original */
+.safe-logo {
+    width: 56px;
+    height: 55px;
+    object-fit: contain;
+}

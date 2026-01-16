@@ -11,7 +11,17 @@ A modern, responsive login page clone inspired by SAFE Federal Credit Union's on
 ```
 safefed-login/
 ├── css/
-│   └── styles.css          # Main stylesheet with all styling
+│   ├── styles.css          # Main entry point - imports all modules
+│   ├── variables.css       # CSS custom properties (colors, shadows, fonts)
+│   ├── base.css            # Reset & base document styles
+│   ├── layout.css          # Main container & card layout
+│   ├── header.css          # Login header & logo styles
+│   ├── form.css            # Form inputs, labels, password toggle, messages
+│   ├── toggle.css          # Toggle switch component
+│   ├── button.css          # Login button & loader animation
+│   ├── links.css           # Login links styling
+│   ├── footer.css          # Footer styles
+│   └── responsive.css      # Media queries for tablet/mobile
 ├── js/
 │   └── main.js             # JavaScript for form handling & validation
 ├── screenshots/

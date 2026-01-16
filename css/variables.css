@@ -1,0 +1,35 @@
+/* ========================================
+   CSS Variables - Design Tokens
+   SAFE Federal Credit Union
+   ======================================== */
+
+:root {
+    /* Brand Colors */
+    --primary-navy: rgb(0, 43, 126);
+    --white: rgb(255, 255, 255);
+
+    /* Gray Palette */
+    --gray-label: rgb(101, 101, 101);
+    --gray-text: rgb(33, 33, 33);
+    --gray-border: rgb(204, 204, 204);
+    --gray-bg: rgb(243, 244, 246);
+
+    /* Button States */
+    --button-disabled-bg: rgba(0, 0, 0, 0.12);
+    --button-disabled-color: rgba(0, 0, 0, 0.26);
+
+    /* Semantic Colors */
+    --link-blue: rgb(0, 43, 126);
+    --error-red: rgb(220, 38, 38);
+    --success-green: rgb(22, 163, 74);
+
+    /* Toggle Colors */
+    --toggle-on-bg: rgb(59, 130, 246);
+    --toggle-thumb-gray: rgb(101, 101, 101);
+
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+    /* Typography */
+    --font-family: Arial, sans-serif;
+}

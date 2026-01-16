@@ -1,0 +1,50 @@
+/* ========================================
+   Responsive Styles - Media Queries
+   ======================================== */
+
+/* Tablet Breakpoint */
+@media (max-width: 850px) {
+    .login-card {
+        flex-direction: column;
+        max-width: 410px;
+    }
+
+    .login-image {
+        flex: 0 0 auto;
+        height: auto;
+        min-height: 200px;
+        max-height: 250px;
+    }
+
+    .login-panel {
+        flex: 1;
+        height: auto;
+    }
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 480px) {
+    .main-container {
+        padding: 20px 16px;
+    }
+
+    .login-header {
+        padding: 20px;
+        height: auto;
+    }
+
+    .login-form-container {
+        padding: 20px;
+    }
+
+    .fluid-input-wrapper,
+    .login-button,
+    .form-message,
+    .login-links {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+}

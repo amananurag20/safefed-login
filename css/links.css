@@ -1,0 +1,31 @@
+/* ========================================
+   Login Links
+   ======================================== */
+
+/* Login Links: 14px Arial, color #002b7e from original */
+.login-links {
+    width: 350px;
+    text-align: center;
+}
+
+.login-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-family: var(--font-family);
+    color: var(--link-blue);
+    cursor: pointer;
+    padding: 0;
+    transition: color 0.15s;
+}
+
+.link-button:hover {
+    text-decoration: underline;
+}
