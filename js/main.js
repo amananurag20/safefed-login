@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
             setTimeout(() => {
                 // Simulated authentication
                 // In production, this would be an API call
-                if (userId === 'user123' && password === 'password123') {
+                if (userId === 'admin' && password === '123456') {
                     resolve({ success: true });
                 } else {
                     reject(new Error('Invalid User ID or Password'));
